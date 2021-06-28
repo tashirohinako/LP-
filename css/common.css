@@ -79,22 +79,20 @@ header .drawer {
 
 .font1 p {
   color: #75a9ff;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
-  top: 100px;
-  bottom: 55px;
+  margin-bottom: 25px;
 }
 
 .font1 small {
   color: #666;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
-  top: 100px;
-  bottom: 50px;
+  margin-bottom: 25px;
 }
 .top .download {
-  display: block;
-  margin: 20% 10%;
+  display: inline-flex;
+  margin: 5% 10%;
 }
 
 .top .download .apple {
@@ -102,24 +100,25 @@ header .drawer {
 }
 
 .top .download .google {
-  margin-right: 2%;
+  margin-left: 2%;
 }
 
 .top .download .apple img {
-  width: 30%;
+  width: 100%;
   height: auto;
 }
 .top .download .google img {
-  width: 30%;
+  width: 100%;
   height: auto;
 }
+
 .top .top_img {
   display: inline-block;
   position: relative;
 }
 
 .top .top_img img {
-  width: 300px;
+  width: 350px;
   height: auto;
 }
 .feature {
@@ -279,7 +278,6 @@ header .drawer {
 p {
   font-size: 16px;
   line-height: 2.5;
-  text-align:center
 }
 
 .faq .txt ul li::before {
@@ -504,7 +502,7 @@ header .drawer {
   margin: 0;
 }
 .font1 p {
-  font-size: 32px;
+  font-size: 30px;
 }
 .font1 small {
   font-size: 18px;
