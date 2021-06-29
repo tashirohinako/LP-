@@ -589,4 +589,9 @@ p {
   margin-top: 15px;
 }
 }
-@media screen and (max-width: 540px) {}
+@media screen and (max-width: 540px) {
+.faq .more a {
+  font-size: 10px;
+}
+  
+}
